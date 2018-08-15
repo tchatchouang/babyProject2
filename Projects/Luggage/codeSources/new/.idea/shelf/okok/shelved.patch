@@ -1,0 +1,48 @@
+Index: .idea/libraries/JPA_2_0_2_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/JPA_2_0_2_0.xml	(date 1534347590000)
++++ .idea/libraries/JPA_2_0_2_0.xml	(date 1534347590000)
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="JPA 2.0-2.0">
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/javax.persistence.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Hibernate_5_3_2_5_3_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Hibernate_5_3_2_5_3_2.xml	(date 1534347590000)
++++ .idea/libraries/Hibernate_5_3_2_5_3_2.xml	(date 1534347590000)
+@@ -0,0 +1,21 @@
++<component name="libraryTable">
++  <library name="Hibernate 5.3.2-5.3.2" type="hibernate">
++    <properties version="5.3.2" />
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/classmate-1.3.4.jar!/" />
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/hibernate-commons-annotations-5.0.4.Final.jar!/" />
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/dom4j-1.6.1.jar!/" />
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/jandex-2.0.5.Final.jar!/" />
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/javax.activation-api-1.2.0.jar!/" />
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/jboss-logging-3.3.2.Final.jar!/" />
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/antlr-2.7.7.jar!/" />
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/javax.persistence-api-2.2.jar!/" />
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar!/" />
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/javassist-3.22.0-GA.jar!/" />
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/byte-buddy-1.8.12.jar!/" />
++      <root url="jar://$PROJECT_DIR$/backend/restServiceSpringData/lib/hibernate-core-5.3.2.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file

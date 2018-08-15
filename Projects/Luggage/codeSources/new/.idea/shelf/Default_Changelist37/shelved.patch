@@ -1,0 +1,209 @@
+Index: ../../developpement/ProjectColis/backend/colis/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/server-config.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../../developpement/ProjectColis/backend/colis/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/server-config.json	(date 1534338739000)
++++ ../../developpement/ProjectColis/backend/colis/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/server-config.json	(date 1534338739000)
+@@ -1,44 +0,0 @@
+-{
+-  "version": "v1",
+-  "title": "Spring IDE",
+-  "timestamp": 1524918532657,
+-  "ttl": 10080,
+-  "helpUrl": "https://aer.ctrlflow.com/spring-ide/help",
+-  "feedbackUrl": "https://www.codetrails.com/error-analytics/",
+-  "aboutUrl": "https://www.codetrails.com/error-analytics/",
+-  "submitUrl": "https://aer.ctrlflow.com/spring-ide/community/new",
+-  "maxReportSize": 524288,
+-  "problemsUrl": "https://aer.ctrlflow.com/downloads/spring-ide/problems.zip",
+-  "problemsTtl": 20160,
+-  "interestUrl": "https://aer.ctrlflow.com/spring-ide/community/interest",
+-  "connectTimeout": 5,
+-  "socketTimeout": 10,
+-  "acceptedProducts": [
+-    "*"
+-  ],
+-  "acceptedPlugins": [
+-    "*"
+-  ],
+-  "acceptedPackages": [
+-    "ch.qos.*",
+-    "com.sun.*",
+-    "java.*",
+-    "javafx.*",
+-    "javax.*",
+-    "org.apache.*",
+-    "org.eclipse.*",
+-    "org.osgi.*",
+-    "org.slf4j.*",
+-    "org.springframework.*",
+-    "sun.*"
+-  ],
+-  "requiredPackages": [
+-    "org.springframework.*"
+-  ],
+-  "acceptOtherPackages": true,
+-  "acceptUiFreezes": true,
+-  "ignoredStatuses": [
+-    ":java.net.*:"
+-  ],
+-  "problemsZipLastDownloadTimestamp": 0
+-}
+\ No newline at end of file
+Index: ../../developpement/ProjectColis/backend/colis/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../../developpement/ProjectColis/backend/colis/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json	(date 1534338739000)
++++ ../../developpement/ProjectColis/backend/colis/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json	(date 1534338739000)
+@@ -1,72 +0,0 @@
+-{
+-  "version": "v1",
+-  "title": "Eclipse",
+-  "timestamp": 1524918532853,
+-  "ttl": 10080,
+-  "helpUrl": "https://dev.eclipse.org/recommenders/community/aeri/v2/help/",
+-  "feedbackUrl": "https://www.codetrails.com/error-analytics/",
+-  "aboutUrl": "https://wiki.eclipse.org/EPP/Logging",
+-  "submitUrl": "https://dev.eclipse.org/recommenders/community/confess/0.6/reports/",
+-  "maxReportSize": 262144,
+-  "problemsUrl": "https://www.eclipse.org/downloads/download.php?r\u003d1\u0026file\u003d/technology/epp/logging/problems.zip",
+-  "problemsTtl": 20160,
+-  "interestUrl": "https://dev.eclipse.org/recommenders/community/confess/v2/interest",
+-  "connectTimeout": 10,
+-  "socketTimeout": 10,
+-  "acceptedProducts": [
+-    "org.eclipse.*",
+-    "org.fordiac.*"
+-  ],
+-  "acceptedPlugins": [
+-    "org.apache.log4j.*",
+-    "org.eclipse.*",
+-    "org.fordiac.*"
+-  ],
+-  "acceptedPackages": [
+-    "ch.qos.*",
+-    "com.cforcoding.*",
+-    "com.google.*",
+-    "com.gradleware.tooling.*",
+-    "com.mountainminds.eclemma.*",
+-    "com.naef.*",
+-    "com.sun.*",
+-    "java.*",
+-    "javafx.*",
+-    "javax.*",
+-    "org.apache.*",
+-    "org.eclipse.*",
+-    "org.fordiac.*",
+-    "org.gradle.*",
+-    "org.jacoco.*",
+-    "org.osgi.*",
+-    "org.slf4j.*",
+-    "sun.*"
+-  ],
+-  "requiredPackages": [
+-    "com.cforcoding.*",
+-    "com.gradleware.tooling.*",
+-    "com.mountainminds.eclemma.*",
+-    "com.naef.*",
+-    "org.eclipse.*",
+-    "org.fordiac.*",
+-    "org.gradle.*",
+-    "org.jacoco.*"
+-  ],
+-  "acceptOtherPackages": false,
+-  "acceptUiFreezes": true,
+-  "ignoredStatuses": [
+-    ":java.io.IOException:There is not enough space on the disk",
+-    ":java.net.*:",
+-    "org.eclipse.core.filesystem::Could not delete*",
+-    "org.eclipse.core.filesystem::Could not move*",
+-    "org.eclipse.core.resources:org.eclipse.core.internal.resources.ResourceException:Resource is out of sync with the file system*",
+-    "org.eclipse.core.runtime::Invalid input url*",
+-    "org.eclipse.epp.mpc.ui:java.io.IOException:",
+-    "org.eclipse.equinox.p2.*::",
+-    "org.eclipse.jface:java.io.IOException:Unable to resolve plug-in*",
+-    "org.eclipse.oomph.setup.core:$org.apache.http.ConnectionClosedException:",
+-    "org.eclipse.pde.core::The current target platform contains errors*",
+-    "org.eclipse.ui::Conflicting handlers for*"
+-  ],
+-  "problemsZipLastDownloadTimestamp": 0
+-}
+\ No newline at end of file
+Index: ../../developpement/ProjectColis/.idea/libraries/Spring_4_3_18_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../../developpement/ProjectColis/.idea/libraries/Spring_4_3_18_RELEASE.xml	(date 1534338739000)
++++ ../../developpement/ProjectColis/.idea/libraries/Spring_4_3_18_RELEASE.xml	(date 1534338739000)
+@@ -1,27 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Spring-4.3.18.RELEASE" type="spring">
+-    <properties version="4.3.18.RELEASE" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-instrument-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-aspects-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-context-support-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-expression-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-aop-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-jms-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-messaging-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-oxm-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/commons-logging-1.2.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/aopalliance-1.0.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-tx-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-beans-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-orm-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-jdbc-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-test-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-context-4.3.18.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-core-4.3.18.RELEASE.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: ../../developpement/ProjectColis/.idea/libraries/Spring_Batch_2_2_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../../developpement/ProjectColis/.idea/libraries/Spring_Batch_2_2_6.xml	(date 1534338739000)
++++ ../../developpement/ProjectColis/.idea/libraries/Spring_Batch_2_2_6.xml	(date 1534338739000)
+@@ -1,11 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Spring Batch-2.2.6" type="spring-batch">
+-    <properties version="2.2.6" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-batch-infrastructure-2.2.6.RELEASE.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-batch-core-2.2.6.RELEASE.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: ../../developpement/ProjectColis/.idea/libraries/Spring_Data_JPA_1_3_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../../developpement/ProjectColis/.idea/libraries/Spring_Data_JPA_1_3_3.xml	(date 1534338739000)
++++ ../../developpement/ProjectColis/.idea/libraries/Spring_Data_JPA_1_3_3.xml	(date 1534338739000)
+@@ -1,10 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Spring Data JPA-1.3.3" type="spring-data-jpa">
+-    <properties version="1.3.3" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/backend/spring/src/main/springData/lib/spring-data-jpa-1.3.3.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file

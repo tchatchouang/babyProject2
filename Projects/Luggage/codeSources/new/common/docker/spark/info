@@ -1,0 +1,10 @@
+Digest: sha256:72cf24bd31aeec759dbade60c0576befc565ebdaf9ac73de20e9a1cf6fe64caf
+Status: Downloaded newer image for sparkjobserver/spark-jobserver:0.7.0.mesos-0.25.0.spark-1.6.2
+7154d29116ad63efeb87eae9144327b4c7c3c0f932aaee8d54c86502cfc513e0
+6a10f7991ea3065cae1b349b802082ebc79cabe14016ec04c16fbe65febecec9
+
+docker pull sparkjobserver/spark-jobserver
+docker run -d -p 8090:8090 -e SPARK_MASTER=mesos://zk://mesos.master:5050 sparkjobserver/spark-jobserver:0.7.0.mesos-0.25.0.spark-1.6.2
+
+
+docker run -d -p 8090:8090 sparkjobserver/spark-jobserver:0.7.0.mesos-0.25.0.spark-1.6.2 --packages com.datastax.spark:spark-cassandra-connector_2.10:1.6.1

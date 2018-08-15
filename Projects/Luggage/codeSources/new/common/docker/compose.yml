@@ -1,0 +1,10 @@
+---
+version: '1'
+services:
+  jenkins:
+    image: jenkins:2.60.3
+    hostname: jenkins
+    container_name: colis-jenkins
+    ports:
+      - "8080:8080"
+    restart: always

@@ -1,0 +1,32 @@
+Redux: ce package me permettra de gere
+  link : https://redux.js.org/
+  npm install redux @angular-redux/store --save // pour l'installation de redux
+  npm install --save-dev redux-devtools
+  npm install --save redux-observable // pour utiliser Epic
+  npm i --save redux-logger // pour que les log de redux s'affiche dans la consol
+bootstrap
+  npm install bootstrap@4.0.0-beta.2
+ Guard:
+  Pour la gestion des authtification
+   ng g guard authguard //pas besoin d'un package supplementaire
+Creation d'un service pour le Routing
+  ng generate module app-routing --flat --module=app
+    --flat puts the file in src/app instead of its own folder.  // mais je ne vais use flat car je range le mien dans routes/   il va donc cree un dossier qui portera le nom a generer
+    --module=app tells the CLI to register it in the imports array of the AppModule.
+
+glyphicons
+    permet d'avoir des incone
+    npm install --save glyphicons
+rxjs
+    Pour l'utilisation des fonction comme  Filter, Map, etc
+    npm install rxjs --save
+
+test unitaire Angukar
+      npm install karma karma-jasmine karma-chrome-launcher karma-jasmine-html-reporter karma-coverage-istanbul-reporter
+      ng test --code-coverage
+      https://www.codewithjason.com/add-test-coverage-report-angular-cli-project/
+GoogleMap
+  npm install @agm/core --save
+  npm install --save @types/googlemaps
+Pour gere les date genre day Ago
+  npm install date-fns @types/date-fns -- save

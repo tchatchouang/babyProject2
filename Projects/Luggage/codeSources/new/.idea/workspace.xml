@@ -2,6 +2,362 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3202310-53cc-4c6e-a051-1c3fac0df31a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/.angular-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/ColisProjectFront.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/e2e/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/e2e/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/authguard.guard.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/authguard.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/avis-recu/avis-recu.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/avis-recu/avis-recu.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/avis-recu/avis-recu.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/avis-recu/avis-recu.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/avis/avis.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/avis/avis.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/avis/avis.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/avis/avis.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/contact-us/contact-us.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/contact-us/contact-us.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/contact-us/contact-us.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/contact-us/contact-us.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/dashboard/dashboard.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/dashboard/dashboard.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/dashboard/dashboard.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/dashboard/dashboard.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/general-dashboard/general-dashboard.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/general-dashboard/general-dashboard.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/general-dashboard/general-dashboard.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/general-dashboard/general-dashboard.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/gui.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/gui.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/gui.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/gui.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/gui.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/home-page/home-page.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/home-page/home-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/home-page/home-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/home-page/home-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/menu/menu.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/menu/menu.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/menu/menu.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/menu/menu.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/messagerie-message/messagerie-message.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/messagerie-message/messagerie-message.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/messagerie-message/messagerie-message.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/messagerie-message/messagerie-message.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/messagerie/messagerie.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/messagerie/messagerie.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/messagerie/messagerie.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/messagerie/messagerie.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/personnes/personnes.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/personnes/personnes.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/personnes/personnes.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/personnes/personnes.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/profil/profil.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/profil/profil.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/profil/profil.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/profil/profil.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/propose-trajet/propose-trajet.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/propose-trajet/propose-trajet.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/propose-trajet/propose-trajet.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/propose-trajet/propose-trajet.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/sign-out/sign-out.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/sign-out/sign-out.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/sign-out/sign-out.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/sign-out/sign-out.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/sing-up/sing-up.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/sing-up/sing-up.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/sing-up/sing-up.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/sing-up/sing-up.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/team/team.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/team/team.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/team/team.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/team/team.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/trajet-demander/trajet-demander.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/trajet-demander/trajet-demander.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/trajet-demander/trajet-demander.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/trajet-demander/trajet-demander.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/trajet-details/trajet-details.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/trajet-details/trajet-details.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/trajet-details/trajet-details.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/trajet-details/trajet-details.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/trajet-publier/trajet-publier.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/trajet-publier/trajet-publier.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/trajet-publier/trajet-publier.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/trajet-publier/trajet-publier.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/interfaces/error-message/error-message.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/models/conversations.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/models/messages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/models/person.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/models/propse-trajet.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/models/trajet.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/node/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/pipes/day-ago.pipe.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/pipes/day-ago.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/routes/routes.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/services/Trajets/trajets-services.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/services/logins/login.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/services/logins/login.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/services/messagerie/messageriets-services.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/services/personne/personnes.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/services/personne/personnes.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/services/proposerTrajet/proposer-trajet-services.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/services/push-route/push-routes.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/services/push-route/push-routes.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/services/service.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/services/signUp/sign-up-services.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/services/singOut/sign-out-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/actions/actions.types.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/actions/actions.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/actions/flux-standard-action.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/actions/home/home-actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/actions/login/login.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/actions/messagerie/messagerie.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/actions/proposerTrajet/proposer-trajet-actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/actions/signOut/sign-out-actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/actions/singUp/sign-up-actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/actions/trajetPublier/trajet-publier-actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/epics/home/home-epics.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/epics/login/login-epics.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/epics/proposerTrajet/proposer-trajet-epics.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/epics/signOut/sign-out-epics.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/reducers/home/home-reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/reducers/login/login.reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/reducers/messagerie/messagerie-reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/reducers/publierTrajet/publier-trajet-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/reducers/reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/reducers/signOut/sign-out-reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/reducers/signUp/sign-up-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/reducers/trajetPublier/trajet-publier-reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/app/stores/store.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/data/flot-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/data/morris-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/dist/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/dist/css/sb-admin-2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/dist/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/dist/js/sb-admin-2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/Avion-en-vol.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/bg01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/clients/client01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/clients/client02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/clients/client03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/clients/client04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/cta/cta01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/cta/cta02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/elisa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/illustration-aeroport-de-clermont-ferrand-depart-en-vacances_3596848.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/joel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/joel2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/leiti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/leiti2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/portfolio/port01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/portfolio/port02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/portfolio/port03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/portfolio/port04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/portfolio/port05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/portfolio/port06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/team/gianni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/team/rebecca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/team/william.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/travel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/willi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/img/willi2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/less/sb-admin-2.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/bootstrap-social/bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/bootstrap-social/bootstrap-social.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/bootstrap-social/bootstrap-social.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables-plugins/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables-plugins/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables-plugins/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables-plugins/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables-responsive/dataTables.responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables-responsive/dataTables.responsive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables-responsive/dataTables.responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.material.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.material.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.uikit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/dataTables.uikit.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/css/jquery.dataTables_themeroller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/images/Sorting icons.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.material.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.material.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.uikit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/dataTables.uikit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/datatables/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot-tooltip/jquery.flot.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot-tooltip/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot-tooltip/jquery.flot.tooltip.source.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.colorhelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.errorbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.fillbetween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.navigate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/flot/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/extras.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_extras.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/metisMenu/metisMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/metisMenu/metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/metisMenu/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/metisMenu/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/morrisjs/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/morrisjs/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/morrisjs/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/raphael/raphael.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/assets/vendor/raphael/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/packagesUse/packagesUse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/src/typings.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/angular/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="a0cff2dd-1467-4c68-a42d-009d9ada227d" name="backend initialise" comment="" />
@@ -19,6 +375,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1041965826">
       <usages-collector id="statistics.lifecycle.project">
@@ -32,59 +402,58 @@
         <counts>
           <entry key="info" value="1" />
           <entry key="java" value="7" />
+          <entry key="js" value="1" />
+          <entry key="json" value="4" />
           <entry key="properties" value="2" />
+          <entry key="ts" value="5" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="7" />
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
+          <entry key="TypeScript" value="5" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="json" value="1" />
           <entry key="properties" value="32" />
+          <entry key="ts" value="3" />
           <entry key="txt" value="65" />
           <entry key="xml" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="65" />
           <entry key="Properties" value="32" />
+          <entry key="TypeScript" value="3" />
           <entry key="XML" value="99" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="Angular2LanguageService" value="1" />
+          <entry key="TsLintLanguageService" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/pom.xml">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/gui.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -120,6 +489,9 @@
         <option value="$PROJECT_DIR$/frontend/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
         <option value="$PROJECT_DIR$/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/advertisement/advertisement.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/main/angular/tslint.json" />
+        <option value="$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/gui.module.ts" />
       </list>
     </option>
   </component>
@@ -142,6 +514,14 @@
       <select />
     </treeState>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/frontend/src/main/angular/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/frontend/src/main/angular/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -163,7 +543,58 @@
             <path>
               <item name="colis" type="b2602c69:ProjectViewProjectNode" />
               <item name="new" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="colis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="colis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="colis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="colis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="colis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="colis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,22 +608,28 @@
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="15" />
-    <property name="RequestMappingsPanelWidth1" value="15" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534349923767" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534352509271" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/frontend/src/main/angular/node_modules/tslint" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/main" />
+      <recent name="$PROJECT_DIR$/frontend/src/main/angular" />
       <recent name="$PROJECT_DIR$/backend/restServices/src/main/resources" />
       <recent name="$PROJECT_DIR$/backend/restServices/src/main/java" />
       <recent name="$PROJECT_DIR$/backend/restServiceSpringData" />
-      <recent name="$PROJECT_DIR$/backend/colis" />
-      <recent name="$PROJECT_DIR$/backend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -207,7 +644,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ColisApplication">
+  <component name="RunManager" selected="npm.colis front start">
     <configuration name="Parent" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -241,8 +678,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="colis front start" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/frontend/src/main/angular/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Maven.Parent" />
+      <item itemvalue="npm.colis front start" />
       <item itemvalue="Spring Boot.ColisApplication" />
     </list>
   </component>
@@ -259,7 +707,7 @@
       <option name="presentableId" value="Default" />
       <updated>1534342925398</updated>
       <workItem from="1534342926921" duration="848000" />
-      <workItem from="1534344144341" duration="5495000" />
+      <workItem from="1534344144341" duration="7798000" />
     </task>
     <task id="LOCAL-00001" summary="backend initialise">
       <created>1534347468606</created>
@@ -331,11 +779,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534349656312</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="backend">
+      <created>1534349935228</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1534349935228</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6343000" />
+    <option name="totallyTimeSpent" value="8646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="972" extended-state="6" />
@@ -343,18 +798,20 @@
     <layout>
       <window_info id="Persistence" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info id="npm" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4993895" weight="0.32954547" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4993895" visible="true" weight="0.3284091" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4993895" visible="true" weight="0.46704546" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -363,9 +820,9 @@
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.498779" weight="0.65113634" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.50061053" side_tool="true" visible="true" weight="0.3284091" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.50061053" side_tool="true" visible="true" weight="0.46704546" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50061053" side_tool="true" weight="0.32954547" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Bean Validation" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -373,7 +830,7 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32967034" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32967034" />
     </layout>
     <layout-to-restore>
@@ -447,13 +904,6 @@
     <entry file="file://$PROJECT_DIR$/backend/colis/src/main/java/colis/com/ColisApplication.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/restServices/src/main/java/com/dao/ColisDao.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -525,10 +975,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/avis/avis.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/angular/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/angular/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/angular/e2e/app.po.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/angular/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/advertisement/advertisement.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/angular/src/app/gui/gui.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

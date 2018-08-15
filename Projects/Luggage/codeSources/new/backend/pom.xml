@@ -11,9 +11,7 @@
     <packaging>pom</packaging>
     <name>COLIS-BACKEND</name>
     <artifactId>backend</artifactId>
-
     <modules>
         <module>restServices</module>
     </modules>
-
 </project>

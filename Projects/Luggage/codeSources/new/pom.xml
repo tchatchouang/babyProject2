@@ -13,5 +13,9 @@
         <module>backend</module>
     </modules>
 
+    <properties>
+        <nodeVersion>v10.5.0</nodeVersion>
+        <npmVersion>6.1.0</npmVersion>
+    </properties>
 
 </project>
